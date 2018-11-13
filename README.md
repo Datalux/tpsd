@@ -9,3 +9,6 @@ della serie 'nome_serie' (il carattere virgola fa da separatore), rispondendo al
 richiesta non sono attualmente disponibili.
 * L'elenco delle 6 serie tv (popolabile a piacere) con il rispettivo numero di episodi, deve essere gestito in una classe separata chiamata `ShowList`, che ha al suo interno il metodo
 `isAvaible(nome_serie, n)` che verrà usato dal `NetSixServer` per sapere se l'episodio è disponibile o meno.
+
+## 23-04-18
+![Testo del compito](https://gitlab.com/Datalux/tpsd/blob/master/23-04-18/testo.png)
