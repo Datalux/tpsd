@@ -14,8 +14,8 @@ richiesta non sono attualmente disponibili.
 ![Testo del compito](https://gitlab.com/Datalux/tpsd/blob/master/23-04-18/testo.png)
 
 ## TIME
-![Testo del compito](https://gitlab.com/Datalux/tpsd/blob/master/BOOK/testo.png)
+![Testo del compito](https://gitlab.com/Datalux/tpsd/blob/master/TIME/testo.png)
 
 ## BOOK
-![Testo del compito](https://gitlab.com/Datalux/tpsd/blob/master/TIME/testo.png)
+![Testo del compito](https://gitlab.com/Datalux/tpsd/blob/master/BOOK/testo.png)
 
