@@ -49,8 +49,12 @@ public class NetSixServer {
 					System.out.println("> Invalid request received: send BAD REQUEST message");
 					out.println("[BAD REQUEST] use: NetSixServer <nome_serie>,<n episode>");
 				}
+				
 
 				System.out.println("> Close connection");
+				
+				in.close();
+				out.close();
 				clientSocket.close();
 			}
 
