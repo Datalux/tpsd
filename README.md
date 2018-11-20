@@ -31,7 +31,8 @@ rispondere sono:
 Dopo avere risposto, il server chiude la connessione con il client e torna in attesa di richieste.
 
 ## ThreadC
-### Hit 
+### Prova in itinere del 19/12/2013
+#### Hit 
 Una variabile intera `x`, inizializzata a 0, è condivisa tra 2 thread `tA`, `tB`. Ogni thread dispone di una variabile locale `hit` ed esegue le seguenti azioni:
 
 1.  attende un numero casuale di ms (N.B.: la chiamata `usleep(n)` attende per  n microsecondi )
@@ -39,4 +40,15 @@ Una variabile intera `x`, inizializzata a 0, è condivisa tra 2 thread `tA`, `tB
 3.  altrimenti, incrementa `x`, incrementa la variabile locale `hit` e ricomincia da (1) 
 
 Il programma termina quando tutti i thread hanno terminato la propria esecuzione. Nel codice, proteggere opportunamente la variabile `x` dagli accessi concorrenti.
+
+#### ProdConsM
+Scrivere in C un programma con due thread produttori `P1` e `P2` che condividono una variabile `m`  intera, che va inizializzata con un numero casuale compreso tra 1 e 10.
+I thread eseguono un ciclo infinito, comportandosi rispettivamente come segue: <br />
+&nbsp; P1 controlla il valore M di `m`:
+* se M è compreso tra 1 e 5, P1 sveglia P2, genera un numero casuale compreso tra 1 e 10, lo memorizza in M e lo stampa a video
+* se invece M è compreso tra 6 e 10, P1 si mette in attesa 
+
+&nbsp; P2 controlla il valore di M:
+* se M è compreso tra 6 e 10, P2 sveglia P1, genera un numero casuale compreso tra 1 e 10, lo memorizza in M e lo stampa a video
+* se M è compreso tra 1 e 5, P2 si mette in attesa
 
