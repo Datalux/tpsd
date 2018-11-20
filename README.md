@@ -19,3 +19,14 @@ richiesta non sono attualmente disponibili.
 ## BOOK
 ![Testo del compito](https://gitlab.com/Datalux/tpsd/blob/master/BOOK/testo.png)
 
+## ThreadC
+
+### Hit 
+Una variabile intera `x`, inizializzata a 0, è condivisa tra 2 thread `tA`, `tB`. Ogni thread dispone di una variabile locale `hit` ed esegue le seguenti azioni:
+
+1.  attende un numero casuale di ms (N.B.: la chiamata `usleep(n)` attende per  n microsecondi )
+2.  se la variabile condivisa `x > 500`, allora scrive su `stdout` il valore di `hit` e termina la propria esecuzione
+3.  altrimenti, incrementa `x`, incrementa la variabile locale `hit` e ricomincia da (1) 
+
+Il programma termina quando tutti i thread hanno terminato la propria esecuzione. Nel codice, proteggere opportunamente la variabile `x` dagli accessi concorrenti.
+
