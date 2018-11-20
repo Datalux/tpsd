@@ -19,8 +19,18 @@ richiesta non sono attualmente disponibili.
 ## BOOK
 ![Testo del compito](https://gitlab.com/Datalux/tpsd/blob/master/BOOK/testo.png)
 
-## ThreadC
+## LIST
+Implementare un server, in C o Java, che risponde sul port 7777. Il server mantiene un vettore V con le ultime dieci richieste (stringhe di 10 caratteri) ricevute. Le richieste a cui il server deve 
+rispondere sono:
 
+1. la stringa "LIST", a cui il server risponde inviando al client tutte le risposte finora memorizzate in V, separate da '\n';
+2. qualsiasi altra stringa viene trattata come messaggio da inserire nel vettore V: <br />
+&nbsp; 2.1 se la stringa è già presente in V, il server risponde con "presente"; <br />
+&nbsp; 2.2 se la stringa non è ancora presente in V, il server la aggiunge a V, eventualmente sovrascrivendone una a caso tra quelle già esistenti, e risponde "inserita" al client.
+
+Dopo avere risposto, il server chiude la connessione con il client e torna in attesa di richieste.
+
+## ThreadC
 ### Hit 
 Una variabile intera `x`, inizializzata a 0, è condivisa tra 2 thread `tA`, `tB`. Ogni thread dispone di una variabile locale `hit` ed esegue le seguenti azioni:
 
