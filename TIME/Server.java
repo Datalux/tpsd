@@ -41,7 +41,6 @@ public class Server {
                         out.println(System.currentTimeMillis());
                     else
                         out.println("N/A");
-                    System.out.println(clientSocket.getInetAddress() + " added to blacklist");
                 }
 
                 lastIP = ip;
@@ -50,7 +49,6 @@ public class Server {
                 clientSocket.close();
             }
 
-
         }catch (Exception e){
             e.printStackTrace();
         }
@@ -58,7 +56,10 @@ public class Server {
     }
 
     private static boolean isLastIP(String last, String now){
-        if(last.equals(now)) blackList.add(now);
+        if(last.equals(now)){
+            blackList.add(now);
+            System.out.println(last + " added to blacklist");
+        }
         return last.equals(now);
     }
 
