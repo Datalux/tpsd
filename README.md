@@ -79,6 +79,10 @@ Il thread tO, ciclicamente:
 Il programma termina quando tutti i thread hanno terminato la propria esecuzione. I thread scriveranno di essere terminati. Possono anche visualizzare, a ogni ciclo, il valore trovato in n.
 Nel codice, proteggere opportunamente la variabile n dagli accessi concorrenti. 
 
+### Prova in itinere gennaio ![source code](https://gitlab.com/Datalux/tpsd/blob/master/ThreadC/pari-dispari.c)
+Realizzare due thread A e B, che stampano rispettivamente i numeri pari e i numeri dispari (da 1 a 100).
+
+
 
 
 
