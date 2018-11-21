@@ -52,7 +52,7 @@ I thread eseguono un ciclo infinito, comportandosi rispettivamente come segue: <
 * se M è compreso tra 6 e 10, P2 sveglia P1, genera un numero casuale compreso tra 1 e 10, lo memorizza in M e lo stampa a video
 * se M è compreso tra 1 e 5, P2 si mette in attesa
 
-### Prova in itinere del 03/02/2017
+### Prova in itinere del 03/02/2017 `TPSD/ThreadC/itinere-03-02-2017.c`
 Una variabile intera n, inizializzata a 0, è condivisa tra 2 thread tO, tE.
 Il thread tE, ciclicamente:
 1. attende 200 ms (N.B.: la chiamata usleep(t) attende per t microsecondi)
