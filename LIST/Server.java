@@ -56,7 +56,7 @@ public class Server {
     private static void addRequest(String request){
         lastRequests[index % 10] = request;
         index++;
-        if(index <= 10)
+        if(index < 10)
             size = index;
     }
 
