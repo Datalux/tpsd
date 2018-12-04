@@ -22,7 +22,7 @@ Esercizi per il corso di Tecnologie per i Sistemi Distribuiti e il Web.
 [Thread  In Java](#thread-in-java)
 * [Esercitazione del 31/11/18](#esercitazione-del-30112018--1)
 * [Tiro alla fune](#tiro-alla-fune-esercitazione-del-30112018--1)
-* [Prova in itinere del 19/12/2013](#prova-in-itinere-del-191213-)
+* [Prova in itinere del 19/12/2013](#prova-in-itinere-del-191213)
 
 
 ## Socket in Java
