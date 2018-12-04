@@ -16,7 +16,7 @@ Esercizi per il corso di Tecnologie per i Sistemi Distribuiti e il Web.
 * [Prova in itinere del 19/12/2013](#prova-in-itinere-del-19122013)
 * [Prova in itinere gennaio](#prova-in-itinere-gennaio--1)
 * [Esercitazione del 31/11/18](#esercitazione-del-30112018)
-* [Tiro alla fune](#tiro-alla-fune-esercitazione-del-30112018)
+* [Tiro alla fune](#tiro-alla-fune-esercitazione-del-30112018-)
 
 
 [Thread  In Java](#thread-in-java)
