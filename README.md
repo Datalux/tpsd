@@ -13,11 +13,13 @@ Esercizi per il corso di Tecnologie per i Sistemi Distribuiti e il Web.
 
 
 [Thread in C](#thread-in-c)
-* [TIME](#time)
-* [TIME](#time)
-* [TIME](#time)
+* [Prova in itinere del 19/12/2013](#prova-in-itinere-del-19122013)
+* [Prova in itinere gennaio](#prova-in-itinere-gennaio--1)
+* [Esercitazione del 31/11/18](#esercitazione-del-30112018)
 
 [Thread  In Java](#thread-in-java)
+* [Esercitazione del 31/11/18](#esercitazione-del-30112018--1)
+
 
 ## Socket in Java
 ### NetSix ![source code](https://gitlab.com/Datalux/tpsd/tree/master/NetSix)
