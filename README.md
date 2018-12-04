@@ -4,8 +4,18 @@ Esercizi per il corso di Tecnologie per i Sistemi Distribuiti e il Web.
 
 # Indice
 [Socket In Java](#socket-in-java)
+* [NetSix](#netsix)
+* [23-04-18](#23-04-18)
+* [TIME](#time)
+* [BOOK](#book)
+* [LIST](#list)
+* [Prova in itinere gennaio](#prova-in-itinere-gennaio)
+
 
 [Thread in C](#thread-in-c)
+* [TIME](#time)
+* [TIME](#time)
+* [TIME](#time)
 
 [Thread  In Java](#thread-in-java)
 
