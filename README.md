@@ -125,7 +125,7 @@ Il programma termina quando tutti i thread hanno terminato la propria esecuzione
 scriveranno di essere terminati. Possono anche visualizzare, a ogni ciclo, il valore trovato in `n`.
 Nel codice, proteggere opportunamente la variabile `n` dagli accessi concorrenti.
 
-### Tiro alla fune (esercitazione del 30/11/2018) ![source code](https://gitlab.com/Datalux/tpsd/tree/master/ThreadC)
+### Tiro alla fune (esercitazione del 30/11/2018) ![source code](https://gitlab.com/Datalux/tpsd/blob/master/ThreadC/tiro-alla-fune.c)
 Scrivere un programma che simuli un incontro di “tiro alla fune” tra due 2 thread
 “giocatori” `tp[0]`, `tp[1]`.
 E’ data una variabile globale intera `posizione` (con valore iniziale 0) condivisa da tutti i thread. 
