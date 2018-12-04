@@ -22,7 +22,7 @@ Esercizi per il corso di Tecnologie per i Sistemi Distribuiti e il Web.
 [Thread  In Java](#thread-in-java)
 * [Esercitazione del 31/11/18](#esercitazione-del-30112018--1)
 * [Tiro alla fune](#tiro-alla-fune-esercitazione-del-30112018--1)
-* [Prova in itinere del 19/12/2013](#prova-in-itinere-del-19122013--)
+* [Prova in itinere del 19/12/2013](#prova-in-itinere-del-191213-)
 
 
 ## Socket in Java
@@ -206,7 +206,7 @@ Ogni thread giocatore esegue un ciclo in cui:
 (Opzionale) quando uno dei giocatori ha raggiunto 10 vittorie interrompere il gioco, entrambi i giocatori `tp[0]` , `tp[1]` devono aver terminato la loro esecuzione, e la
 funzione `main()` se ne deve accorgere scrivendo sullo standard output il giocatore che ha totalizzato più vittorie.
 
-### Prova in itinere del 19/12/13 ![source code](https://gitlab.com/Datalux/tpsd/tree/master/ThreadJava/inItinere19-12-13)
+### Prova in itinere del 19/12/13
 #### Hit ![source code](https://gitlab.com/Datalux/tpsd/blob/master/ThreadJava/inItinere19-12-13/hit)
 Una variabile intera `x`, inizializzata a 0, è condivisa tra 2 thread `tA`, `tB`. Ogni thread dispone di una variabile locale `hit` ed esegue le seguenti azioni:
 
