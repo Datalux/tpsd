@@ -16,9 +16,12 @@ Esercizi per il corso di Tecnologie per i Sistemi Distribuiti e il Web.
 * [Prova in itinere del 19/12/2013](#prova-in-itinere-del-19122013)
 * [Prova in itinere gennaio](#prova-in-itinere-gennaio--1)
 * [Esercitazione del 31/11/18](#esercitazione-del-30112018)
+* [Tiro alla fune](#tiro-alla-fune-esercitazione-del-30112018)
+
 
 [Thread  In Java](#thread-in-java)
 * [Esercitazione del 31/11/18](#esercitazione-del-30112018--1)
+* [Tiro alla fune](#tiro-alla-fune-esercitazione-del-30112018-1)
 
 
 ## Socket in Java
@@ -122,7 +125,7 @@ Il programma termina quando tutti i thread hanno terminato la propria esecuzione
 scriveranno di essere terminati. Possono anche visualizzare, a ogni ciclo, il valore trovato in `n`.
 Nel codice, proteggere opportunamente la variabile `n` dagli accessi concorrenti.
 
-### Tiro alla fune (esercitazione del 30/11/2018)
+### Tiro alla fune (esercitazione del 30/11/2018) ![source code](https://gitlab.com/Datalux/tpsd/tree/master/ThreadC)
 Scrivere un programma che simuli un incontro di “tiro alla fune” tra due 2 thread
 “giocatori” `tp[0]`, `tp[1]`.
 E’ data una variabile globale intera `posizione` (con valore iniziale 0) condivisa da tutti i thread. 
@@ -173,7 +176,7 @@ Il programma termina quando tutti i thread hanno terminato la propria esecuzione
 scriveranno di essere terminati. Possono anche visualizzare, a ogni ciclo, il valore trovato in `n`.
 Nel codice, proteggere opportunamente la variabile `n` dagli accessi concorrenti.
 
-### Tiro alla fune (esercitazione del 30/11/2018)
+### Tiro alla fune (esercitazione del 30/11/2018) ![source code](https://gitlab.com/Datalux/tpsd/tree/master/ThreadJava/TiroAllaFune)
 Scrivere un programma che simuli un incontro di “tiro alla fune” tra due 2 thread
 “giocatori” `tp[0]`, `tp[1]`.
 E’ data una variabile globale intera `posizione` (con valore iniziale 0) condivisa da tutti i thread. 
