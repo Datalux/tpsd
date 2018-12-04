@@ -2,6 +2,13 @@
 
 Esercizi per il corso di Tecnologie per i Sistemi Distribuiti e il Web.
 
+# Indice
+[Socket In Java](#socket-in-java)
+
+[Thread in C](#thread-in-c)
+
+[Thread  In Java](#thread-in-java)
+
 ## Socket in Java
 ### NetSix ![source code](https://gitlab.com/Datalux/tpsd/tree/master/NetSix)
 
@@ -81,6 +88,49 @@ Nel codice, proteggere opportunamente la variabile n dagli accessi concorrenti.
 
 ### Prova in itinere gennaio ![source code](https://gitlab.com/Datalux/tpsd/blob/master/ThreadC/pari-dispari.c)
 Realizzare due thread A e B, che stampano rispettivamente i numeri pari e i numeri dispari (da 1 a 100).
+
+### Esercitazione del 30/11/2018 ![source code](https://gitlab.com/Datalux/tpsd/blob/master/ThreadC/esercitazione-30.11-18.c)
+Una variabile `int n`, inizializzata a 100, è condivisa tra 2 thread `tI`, `tD`.
+Il thread `tI`, ciclicamente:
+1. attende 100 ms (N.B.: la chiamata `usleep(t)` attende per t microsecondi)
+2. genera un `int` casuale tra 0 e 9 e lo<b>somma</b> alla variabile condivisa `n`
+3. se `n` è maggiore di 150 termina
+4. altrimenti ricomincia da (1), a meno che abbia già compiuto 1000 iterazioni, nel qual
+caso termina.
+
+Il thread `tD`, ciclicamente:
+1. attende 300 ms (N.B.: la chiamata `usleep(n)` attende per n microsecondi)
+2. genera un `int` casuale tra 0 e 9 e lo <b>sottrae</b> dalla variabile condivisa `n`
+3. se `n` è minore di 80 termina
+4. altrimenti ricomincia da (1), a meno che abbia già compiuto 1000 iterazioni, nel qual
+caso termina.
+
+(Non ricorrere a un array di 2 thread per l’implementazione!)
+Il programma termina quando tutti i thread hanno terminato la propria esecuzione. I thread
+scriveranno di essere terminati. Possono anche visualizzare, a ogni ciclo, il valore trovato in `n`.
+Nel codice, proteggere opportunamente la variabile `n` dagli accessi concorrenti.
+
+## Thread in Java
+### Esercitazione del 30/11/2018 ![source code](https://gitlab.com/Datalux/tpsd/tree/master/ThreadJava/esercitazione-30-11-18)
+Una variabile `int n`, inizializzata a 100, è condivisa tra 2 thread `tI`, `tD`.
+Il thread `tI`, ciclicamente:
+1. attende 100 ms (N.B.: la chiamata `usleep(t)` attende per t microsecondi)
+2. genera un `int` casuale tra 0 e 9 e lo<b>somma</b> alla variabile condivisa `n`
+3. se `n` è maggiore di 150 termina
+4. altrimenti ricomincia da (1), a meno che abbia già compiuto 1000 iterazioni, nel qual
+caso termina.
+
+Il thread `tD`, ciclicamente:
+1. attende 300 ms (N.B.: la chiamata `usleep(n)` attende per n microsecondi)
+2. genera un `int` casuale tra 0 e 9 e lo <b>sottrae</b> dalla variabile condivisa `n`
+3. se `n` è minore di 80 termina
+4. altrimenti ricomincia da (1), a meno che abbia già compiuto 1000 iterazioni, nel qual
+caso termina.
+
+(Non ricorrere a un array di 2 thread per l’implementazione!)
+Il programma termina quando tutti i thread hanno terminato la propria esecuzione. I thread
+scriveranno di essere terminati. Possono anche visualizzare, a ogni ciclo, il valore trovato in `n`.
+Nel codice, proteggere opportunamente la variabile `n` dagli accessi concorrenti.
 
 
 
